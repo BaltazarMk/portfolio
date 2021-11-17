@@ -1,0 +1,101 @@
+.top {
+  text-align: right;
+  padding: 10px;
+}
+
+.top a {
+  text-decoration: none;
+  color: black;
+  margin-left: 10px;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+}
+
+.top a:hover {
+  text-decoration: underline;
+}
+
+.top a.login {
+  background-color: #1a73e8;
+  color: white;
+  padding: 9px 23px;
+  border-radius: 4px;
+}
+
+.top a.login:hover {
+  background-color: #2b7de9;
+  text-decoration: none;
+}
+
+.top img{
+  width: 20px;
+  opacity: 0.5;
+  margin-bottom: -5px;
+}
+
+.middle {
+  text-align: center;
+  margin-top: 30vh;
+  font-family: sans-serif;
+}
+
+.middle input {
+  width: 70%;
+  border: 1px solid #d4d4d4;
+  border-radius: 20px;
+  padding: 10px 25px;
+  font-size: 16px;
+  margin: 30px 0;
+}
+
+.middle a.middleButton {
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 3px;
+  background: #F8F9FA;
+  color: #3D4043;
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+
+.middle p {
+  color: #3D4043;
+  font-size: 14px;
+
+}
+
+.middle a.middleButton:hover {
+  border: 1px solid #d4d4d4;
+}
+
+.bottom {
+  font-family: sans-serif;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #F8F9FA;
+  padding: 8px 20px;
+  color: #717579;
+  font-size: 14px;
+}
+
+hr{
+  border-top: 1px solid #DDE1E6;
+}
+
+.bottom a {
+  color: #717579;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+.bottom .right{
+  float: right;
+  margin-right: 0;
+  margin-left: 20px;
+}
+.top a.login {background-color: blue;}
+.top a.login:hover {background-color: blueviolet;}
